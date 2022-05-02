@@ -28,7 +28,7 @@ public:
 };
 
 //指定成员函数sort排序规则  //高级排序
-bool mycomparePerson(person& p1, person& p2)
+bool mycomparePerson(const person& p1, const  person& p2)
 {
 	if (p1.m_age == p2.m_age)
 	{
